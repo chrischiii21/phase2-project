@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: 'Jost', sans-serif;
+  --font-serif: 'Times New Roman', serif;
+}
+
+@layer base {
+
+  h1,
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
+
+body {
+  background-color: #0a0a0a;
+  /* The deep dark background of the site */
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.tall-text {
+  transform: scaleY(1.25);
+  display: inline-block;
+}
